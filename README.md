@@ -62,7 +62,7 @@ TAs are installed into `/lib/qtee-tas/<chipset>/` on the target device. Replace 
 
 4. Reboot or restart the relevant TEE service so the new TAs are picked up.
 
-> **Note:** The `NO.LOGIN.BINARY.LICENSE.QTI.pdf` document in the `ta/` directory governs the use of these pre-built binaries. Please read it before deploying.
+> **Note:** The [`NO.LOGIN.BINARY.LICENSE.QTI.pdf`](NO.LOGIN.BINARY.LICENSE.QTI.pdf) document in the repository root governs the use of these pre-built binaries. Please read it before deploying.
 
 ## Usage
 
@@ -92,4 +92,4 @@ Please **do not** open a public GitHub issue for security vulnerabilities. See [
 
 **Qualcomm TEE Trusted Applications** is licensed under the [BSD 3-Clause License](https://spdx.org/licenses/BSD-3-Clause.html). See [LICENSE.txt](LICENSE.txt) for the full license text.
 
-The pre-built TA binaries (`.mbn` files) distributed under the `ta/` directory are additionally governed by the **Qualcomm No-Login Binary License** — see [ta/NO.LOGIN.BINARY.LICENSE.QTI.pdf](ta/NO.LOGIN.BINARY.LICENSE.QTI.pdf) for details.
+The pre-built TA binaries (`.mbn` files) distributed under the `ta/` directory are additionally governed by the **Qualcomm No-Login Binary License** — see [NO.LOGIN.BINARY.LICENSE.QTI.pdf](NO.LOGIN.BINARY.LICENSE.QTI.pdf) for details.

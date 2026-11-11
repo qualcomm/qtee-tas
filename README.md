@@ -90,6 +90,8 @@ Please **do not** open a public GitHub issue for security vulnerabilities. See [
 
 ## License
 
-**Qualcomm TEE Trusted Applications** is licensed under the [BSD 3-Clause License](https://spdx.org/licenses/BSD-3-Clause.html). See [LICENSE.txt](LICENSE.txt) for the full license text.
+The source in this repository (README, documentation, build metadata, etc.) is licensed under the [BSD 3-Clause License](https://spdx.org/licenses/BSD-3-Clause.html). See [LICENSE.txt](LICENSE.txt) for the full license text.
 
-The pre-built TA binaries (`.mbn` files) distributed under the `ta/` directory are additionally governed by the **Qualcomm No-Login Binary License** — see [NO.LOGIN.BINARY.LICENSE.QTI.pdf](NO.LOGIN.BINARY.LICENSE.QTI.pdf) for details.
+The pre-built TA binaries (`.mbn` files) under `ta/` additionally incorporate third-party components — including OP-TEE's `pkcs11` TA and Mbed TLS — distributed under **Apache-2.0**, **BSD-2-Clause**, **BSD-3-Clause**, and **BSL-1.0**. See [NOTICE](NOTICE) for the full attribution and license texts of these components.
+
+These binaries are further governed by the **Qualcomm No-Login Binary License** — see [NO.LOGIN.BINARY.LICENSE.QTI.pdf](NO.LOGIN.BINARY.LICENSE.QTI.pdf) for details.

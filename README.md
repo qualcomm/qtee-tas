@@ -62,7 +62,7 @@ TAs are installed into `/lib/qtee-tas/<chipset>/` on the target device. Replace 
 
 4. Reboot or restart the relevant TEE service so the new TAs are picked up.
 
-> **Note:** The [`NO.LOGIN.BINARY.LICENSE.QTI.pdf`](NO.LOGIN.BINARY.LICENSE.QTI.pdf) document in the repository root governs the use of these pre-built binaries. Please read it before deploying.
+> **Note:** The [`NO.LOGIN.BINARY.LICENSE.QTI.txt`](NO.LOGIN.BINARY.LICENSE.QTI.txt) document in the repository root governs the use of these pre-built binaries. Please read it before deploying.
 
 ## Usage
 
@@ -94,4 +94,4 @@ The source in this repository (README, documentation, build metadata, etc.) is l
 
 The pre-built TA binaries (`.mbn` files) under `ta/` additionally incorporate third-party components — including OP-TEE's `pkcs11` TA and Mbed TLS — distributed under **Apache-2.0**, **BSD-2-Clause**, **BSD-3-Clause**, and **BSL-1.0**. See [NOTICE](NOTICE) for the full attribution and license texts of these components.
 
-These binaries are further governed by the **Qualcomm No-Login Binary License** — see [NO.LOGIN.BINARY.LICENSE.QTI.pdf](NO.LOGIN.BINARY.LICENSE.QTI.pdf) for details.
+These binaries are further governed by the **Qualcomm No-Login Binary License** — see [NO.LOGIN.BINARY.LICENSE.QTI.txt](NO.LOGIN.BINARY.LICENSE.QTI.txt) for details.
